@@ -14,6 +14,7 @@ html{
 }
 body{
     /*background-image: url(../images/hp1.jpg);*/
+    
     background-color: #00aaff;
     width: 100%;
     height: 100%;
@@ -24,6 +25,7 @@ a{
 p{
     max-width:40em;
 }
+
 
 /*
 splash
@@ -103,3 +105,31 @@ section .section_heading{
    -webkit-justify-content: center;
    justify-content: center;
 }
+
+/*---------------Media Querries------------------*/
+
+
+
+/*For a Samsung Galaxy S5*/
+/*@media screen and (max-width: 360px){
+    body{
+        /*background-image: url(../images/hp1.jpg);*/
+    
+       /* background-color: #00aaff;
+        width: 100%;
+        height: 100%;
+    }
+    .left_column{
+        width: 80%;
+        float: left;
+        background-color: #6600ff;
+    }
+    .right_column{
+        width: 80%;
+        float: left;
+        background-color: #00aaaa;
+    }
+}
+*/
+
+
