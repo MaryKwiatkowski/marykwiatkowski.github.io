@@ -13,9 +13,8 @@ html{
     font-family:'Tahoma', sans-serif;
 }
 body{
-    /*background-image: url(../images/hp1.jpg);*/
-    
-    background-color: #00aaff;
+    /*background-image: url(../images/hp1.jpg);*/  
+    background-color: #008000;
     width: 100%;
     height: 100%;
 }
@@ -23,9 +22,8 @@ a{
     text-decoration: none;
 }
 p{
-    max-width:40em;
+    max-width:80em;
 }
-
 
 /*
 splash
@@ -34,9 +32,13 @@ section#splash{
     position: fixed;
     height:80vh;
     width:100%;
+    background: url('../images/cows.jpg') no-repeat center;
+    background-size: cover;
+    
 }
 section#splash h1{
-    color:#fff;
+    color:#fef4cd;
+    text-shadow: 3px 3px 5px #008000;
     font-size:300%;
 }
 
@@ -44,9 +46,9 @@ div#scrolling{
     position:absolute;
     /*1 top_nav height from top*/
     width:100%;
-    background:#fff;
+    background:#feeeb3;
     top:80%;
-    margin-bottom:10%;
+    margin-bottom:5%;
 }
 
 /*
@@ -54,7 +56,7 @@ Top Navigation Bar
 */
 div#top_nav{
     z-index: 99999;
-    background-color: #ffffff;
+    background-color: #fee99e;
     width: 100%;
     height: auto;
     text-align: center;
@@ -67,30 +69,41 @@ div#top_nav > div.links{
     width: 80%; /*Change width of links in terms of nav */
     display: table;
     margin: auto;
+    
 }
 div#top_nav > div.links > a{ 
     display: table-cell; 
     width: .01%; 
+    color: #7c0331
+}
+div#top_nav > div.links > a:hover{ 
+    color: #4a021e;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #ad1605;
+    
 }
 
 /*section stuff*/
 section{
-    width:100%;
+    width:80%;
     padding-top:4rem;
     padding-bottom:4rem;
     top:-4rem;
 }
-section .section_content{
-    padding:0.5rem;
-}
-section .section_heading{
-    color:#00aaff;
-    text-align: left;
+section:not(#splash) .section_content{
     width:100%;
+    border:1px solid;
+    padding:1rem;
+    word-wrap: break-word;
+    background-color: #fef4cd;
+}
+section .section_content .section_heading{
+    color:#008000;
+    text-align: left;
 }
 
 /*Utilities*/
-.material_theme{
+.shadow_box{
     box-shadow: 4px 4px 15px 2px #666666;
 }
 
@@ -106,30 +119,31 @@ section .section_heading{
    justify-content: center;
 }
 
+aside.left{
+    width: 55%;
+    float: left;
+    padding-right:5%;
+}
+aside.right{
+    width: 40%;
+    float: right;
+}
+
 /*---------------Media Querries------------------*/
 
 
 
 /*For a Samsung Galaxy S5*/
-/*@media screen and (max-width: 360px){
-    body{
-        /*background-image: url(../images/hp1.jpg);*/
-    
-       /* background-color: #00aaff;
+@media screen and (max-width: 360px){
+    aside.left, aside.right{
         width: 100%;
-        height: 100%;
     }
-    .left_column{
-        width: 80%;
-        float: left;
-        background-color: #6600ff;
+    aside.right:before{
+        content:"\a";
+        white-space: pre;
     }
-    .right_column{
-        width: 80%;
-        float: left;
-        background-color: #00aaaa;
-    }
+
 }
-*/
+
 
 
