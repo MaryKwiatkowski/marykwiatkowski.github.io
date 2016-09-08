@@ -70,11 +70,13 @@ div#top_nav > div.links{
     display: table;
     margin: auto;
     
+    
 }
 div#top_nav > div.links > a{ 
     display: table-cell; 
     width: .01%; 
-    color: #7c0331
+    color: #7c0331;
+    font-size: 20px;
 }
 div#top_nav > div.links > a:hover{ 
     color: #4a021e;
@@ -85,7 +87,7 @@ div#top_nav > div.links > a:hover{
 
 /*section stuff*/
 section{
-    width:80%;
+    width:70%;
     padding-top:4rem;
     padding-bottom:4rem;
     top:-4rem;
@@ -100,6 +102,16 @@ section:not(#splash) .section_content{
 section .section_content .section_heading{
     color:#008000;
     text-align: left;
+}
+section .section_content .splash_section:hover #hidden_text{
+    display: inline-block;
+}
+
+#hidden_text{
+    display: none;
+    color:#fef4cd;
+    text-shadow: 3px 3px 5px #008000;
+    font-size:300%;
 }
 
 /*Utilities*/
@@ -141,6 +153,9 @@ aside.right{
     aside.right:before{
         content:"\a";
         white-space: pre;
+    }
+    div#top_nav > div.links > a{ 
+        font-size: 14px;
     }
 
 }
