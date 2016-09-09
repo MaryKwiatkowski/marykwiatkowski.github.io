@@ -18,6 +18,9 @@ font-family: 'Crafty Girls', cursive;
 font-family: 'Pompiere', cursive;
 font-family: 'Berkshire Swash', cursive;
 font-family: 'Miltonian Tattoo', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Satisfy', cursive;
 */
 
 
@@ -79,18 +82,41 @@ section#splash{
     width:100%;
     background: url('../images/profVT3.jpg') no-repeat center;
     background-size: cover;
-    
-    
 }
+
 section#splash h1{
     color:#004d00;
     text-shadow: 5px 5px 5px #f2f4cd;
     font-size:500%;
     margin-left: 7em;
     margin-top: -3em;
-    font-family: 'Bad Script', cursive;
-    
-    
+    font-family: 'Bad Script', cursive;  
+}
+
+section#splash .section_logo{
+    opacity: 0.7;
+    position: fixed;
+    top: 8%;
+    left: 83%;  
+}
+
+section#splash .section_threeLines{
+    position: fixed;
+    height:20.5em;
+    width:21em;
+    bottom: 10%;
+    left: 73%;  
+    background-color: #7c0331;
+    opacity: 0.6;
+    display: none;
+}
+section#splash .section_threeLines h1{
+    color:#f2f4cd;
+    text-shadow: 5px 5px 8px #003300;
+    font-size: 420%;
+    margin-left: .3em;
+    margin-top: .3em;
+    font-family: 'Josefin Sans', sans-serif;
 
 }
 
@@ -120,10 +146,9 @@ div#top_nav{
 div#top_nav > div.links{
     width: 80%; /*Change width of links in terms of nav */
     display: table;
-    margin: auto;
-    
-    
+    margin: auto;    
 }
+
 div#top_nav > div.links > a{ 
     display: table-cell; 
     width: .01%; 
@@ -132,12 +157,10 @@ div#top_nav > div.links > a{
     font-weight: bold;
     font-family: 'Handlee', cursive;
 }
+
 div#top_nav > div.links > a:hover{ 
-    color: #4a021e;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px #ad1605;
-    
-    
+    color: #4a021e;   
+    text-shadow: 1px 1px 4px #7c0432;   
 }
 
 /*section stuff*/
@@ -205,6 +228,20 @@ aside.right{
 
 /*---------------Media Querries------------------*/
 
+/*For a My Laptop*/
+@media screen and (max-width: 1366px){
+    section#splash h1{
+        font-size:320%;
+        margin-left: 8em;
+        margin-top: -3em;
+    }
+    #hidden_text{
+       display: none;
+       font-size:250%;
+       margin-left: 12.5em;
+    }
+
+}
 
 /*For a iPad*/
 @media screen and (max-width: 768px){
@@ -215,6 +252,15 @@ aside.right{
     }
     section .section_content .splash_section:hover #hidden_text{
         display: none;
+    }
+    section#splash .section_threeLines{
+        height:12em;
+        width: 12.3em;
+        bottom: 10%;
+        left: 70%;      
+    }
+    section#splash .section_threeLines h1{
+        font-size: 245%;
     }
 
 }
@@ -240,6 +286,16 @@ aside.right{
     section .section_content .splash_section:hover #hidden_text{
         display: none;
     }
+        section#splash .section_threeLines{
+        height:8.9em;
+        width: 8.9em;
+        bottom: 33%;
+        left: 60%;      
+    }
+    section#splash .section_threeLines h1{
+        font-size: 175%;
+    }
+    
 }
 
 /*For a Nexus 5X or 6P*/
@@ -261,6 +317,15 @@ aside.right{
     }
     section .section_content .splash_section:hover #hidden_text{
         display: none;
+    }
+        section#splash .section_threeLines{
+        height:8.9em;
+        width: 8.9em;
+        bottom: 33%;
+        left: 60%;     
+    }
+    section#splash .section_threeLines h1{
+        font-size: 175%;
     }
 
 }
@@ -286,6 +351,15 @@ aside.right{
     section .section_content .splash_section:hover #hidden_text{
         display: none;
     }
+        section#splash .section_threeLines{
+        height:8.8em;
+        width: 9.1em;
+        bottom: 33%;
+        left: 56%;      
+    }
+    section#splash .section_threeLines h1{
+        font-size: 180%;
+    }
 
 }
 
@@ -310,6 +384,15 @@ aside.right{
     section .section_content .splash_section:hover #hidden_text{
         display: none;
     }
+        section#splash .section_threeLines{
+        height:8.8em;
+        width: 9.1em;
+        bottom: 33%;
+        left: 55%;      
+    }
+    section#splash .section_threeLines h1{
+        font-size: 180%;
+    }
 
 }
 
@@ -332,6 +415,15 @@ aside.right{
     }
     section .section_content .splash_section:hover #hidden_text{
         display: none;
+    }
+        section#splash .section_threeLines{
+        height:7.8em;
+        width: 7.9em;
+        bottom: 34%;
+        left: 54%;      
+    }
+    section#splash .section_threeLines h1{
+        font-size: 155%;
     }
 
 }
