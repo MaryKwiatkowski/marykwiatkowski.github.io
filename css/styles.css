@@ -488,6 +488,48 @@ aside.right1{
 
 }
 
+/*For Smaller*/
+@media screen and (max-width: 319px){
+    aside.left, aside.right{
+        width: 100%;
+    }
+    aside.right:before{
+        content:"\a";
+        white-space: pre;
+    }
+    aside.left1, aside.right1{
+        width: 100%;
+    }
+    aside.right1:before{
+        content:"\a";
+        white-space: pre;
+    }
+    div#top_nav > div.links > a{ 
+        font-size: 12px;
+    }
+    section#splash h1{
+        font-size:210%;
+        margin-left: 3.8em;
+        margin-top: -5em;
+    }
+    h3{
+        font-size:.5em;
+    }
+    section .section_content .splash_section:hover #hidden_text{
+        display: none;
+    }
+        section#splash .section_threeLines{
+        height:7.8em;
+        width: 7.9em;
+        bottom: 34%;
+        left: 54%;      
+    }
+    section#splash .section_threeLines h1{
+        font-size: 130%;
+    }
+
+}
+
 
 
 
