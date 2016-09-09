@@ -513,10 +513,10 @@ aside.right1{
         margin-top: -5em;
     }
     h3{
-        font-size:.5em;
+        font-size:200%;
     }
     h2{
-        font-size:.8em;
+        font-size:150%;
     }
     section .section_content .splash_section:hover #hidden_text{
         display: none;
