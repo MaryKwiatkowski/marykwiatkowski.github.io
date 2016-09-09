@@ -61,6 +61,12 @@ h3{
     color: #7c0331;
     font-weight: bold;
 }
+h4{
+    font-size: 400%;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    color: #000033;
+}
 ul{
     list-style-position: inside;
     list-style-type: square;
@@ -327,6 +333,9 @@ aside.right1{
     section#splash .section_threeLines h1{
         font-size: 175%;
     }
+    h4{
+    font-size: 200%;
+    }
     
 }
 
@@ -365,6 +374,9 @@ aside.right1{
     }
     section#splash .section_threeLines h1{
         font-size: 175%;
+    }
+    h4{
+    font-size: 200%;
     }
 
 }
@@ -406,6 +418,9 @@ aside.right1{
     section#splash .section_threeLines h1{
         font-size: 180%;
     }
+    h4{
+    font-size: 200%;
+    }
 
 }
 
@@ -446,6 +461,9 @@ aside.right1{
     section#splash .section_threeLines h1{
         font-size: 180%;
     }
+    h4{
+    font-size: 200%;
+    }
 
 }
 
@@ -484,6 +502,9 @@ aside.right1{
     }
     section#splash .section_threeLines h1{
         font-size: 155%;
+    }
+    h4{
+    font-size: 400%;
     }
 
 }
@@ -532,6 +553,12 @@ aside.right1{
     }
     section#splash .section_threeLines h1{
         font-size: 130%;
+    }
+    h4{
+    font-size: 200%;
+    }
+    p3{
+        font-size: 120%;
     }
 
 }
