@@ -108,7 +108,6 @@ section#splash .section_threeLines{
     left: 73%;  
     background-color: #7c0331;
     opacity: 0.6;
-    display: none;
 }
 section#splash .section_threeLines h1{
     color:#f2f4cd;
@@ -239,6 +238,15 @@ aside.right{
        display: none;
        font-size:250%;
        margin-left: 12.5em;
+    }
+        section#splash .section_threeLines{
+        height:17em;
+        width: 17.1em;
+        bottom: 17%;
+        left: 75%;      
+    }
+    section#splash .section_threeLines h1{
+        font-size: 340%;
     }
 
 }
