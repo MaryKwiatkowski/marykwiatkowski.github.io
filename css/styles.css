@@ -450,7 +450,7 @@ aside.right1{
 }
 
 /*For a iPhone 5*/
-@media screen and (max-width: 320px){
+@media screen and (max-width: 321px){
     aside.left, aside.right{
         width: 100%;
     }
@@ -489,7 +489,7 @@ aside.right1{
 }
 
 /*For Smaller*/
-@media screen and (max-width: 319px){
+@media screen and (max-width: 320px){
     aside.left, aside.right{
         width: 100%;
     }
@@ -514,6 +514,9 @@ aside.right1{
     }
     h3{
         font-size:.5em;
+    }
+    h2{
+        font-size:.8em;
     }
     section .section_content .splash_section:hover #hidden_text{
         display: none;
