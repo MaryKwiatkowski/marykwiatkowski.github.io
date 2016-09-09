@@ -305,7 +305,7 @@ aside.right{
     section#splash h1{
         font-size:250%;
         margin-left: 3.5em;
-        margin-top: -5.5em;
+        margin-top: -4.5em;
     }
     section .section_content .splash_section:hover #hidden_text{
         display: none;
