@@ -240,13 +240,13 @@ aside.right{
        margin-left: 12.5em;
     }
         section#splash .section_threeLines{
-        height:17em;
-        width: 17.1em;
-        bottom: 17%;
-        left: 75%;      
+        height:15.2em;
+        width: 16em;
+        bottom: 15%;
+        left: 72%;      
     }
     section#splash .section_threeLines h1{
-        font-size: 340%;
+        font-size: 320%;
     }
 
 }
