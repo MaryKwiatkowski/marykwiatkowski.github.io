@@ -214,7 +214,7 @@ section{
 }
  
 section.RHAP{
-    width: 80%;
+    width: 90%;
     padding-right: 10%;
     float: right;
     text-align: center;
@@ -309,12 +309,7 @@ img {vertical-align: middle;}
     }
     
 
-    /*Swaps order so that connect with us is at the bottom on smaller screens */
-    section#about .section_contentA{ display: flex; flex-direction: column; }
-    .aboutIntro{ order: 1; }
-    aside.left1{ order: 2; }
-    aside.left1{ order: 3; }
-    aside.right1 { order: 4; }
+
 }
 
 /*For a Nexus 5X or 6P*/
